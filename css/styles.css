@@ -19,7 +19,20 @@ body {
   border-radius: 1.25rem;
 
   padding: 3.12rem 4.59rem 4.13rem;
-  min-width: 37vw;
+  /* ! Remover width fixo */
+  min-width: 547px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.register form .title {
+  /* ! Verificar tamanho real do título */
+  font-size: 1.25rem;
+  color: #222222;
+  font-weight: 700;
+  margin: 0 auto 30px;
 }
 
 .register form .input_container {
@@ -55,4 +68,40 @@ body {
 
   font-size: 0.75rem;
   font-weight: 400;
+}
+
+.register form .terms {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-bottom: 1.25rem;
+}
+.register form .terms p {
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.register form .terms p a {
+  color: #105f74;
+}
+
+.register form .register_button {
+  all: unset;
+  color: #ffffff;
+  background: #105f74;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem 1rem 1.25rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.25rem;
+  /* ! Verificar real font-size do texto */
+}
+
+.register form .login_button {
+  all: unset;
+  color: #105f74;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.25rem;
 }
