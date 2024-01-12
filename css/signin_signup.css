@@ -1,0 +1,98 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+
+  padding: 0 10.81rem;
+}
+
+.register form {
+  background: #f2f2f2;
+  border-radius: 1.25rem;
+
+  padding: 3.12rem 4.59rem 4.13rem;
+  /* ! Remover width fixo */
+  width: 547px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.register form .title {
+  font-size: 1.5rem;
+  color: #222222;
+  font-weight: 700;
+  margin: 0 auto 30px;
+}
+
+.register form .input_container {
+  padding: 0.81rem 0.93rem;
+  border-radius: 0.5rem;
+  border: 1px solid #222222;
+
+  position: relative;
+}
+
+.register form .input_container input {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  line-height: 1.5rem;
+
+  outline: none;
+  width: 100%;
+}
+
+.register form .input_container input::placeholder {
+  color: #46494c80;
+}
+
+.register form .input_container label {
+  position: absolute;
+  bottom: 100%;
+  left: 0.9rem;
+
+  transform: translateY(50%);
+  background: #f2f2f2;
+  padding: 0 0.25rem;
+
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.register form .terms {
+  margin-bottom: 1.25rem;
+}
+.register form .terms label {
+  display: inline-block;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.register form .terms label a {
+  color: #105f74;
+}
+
+.register form .register_button {
+  all: unset;
+  color: #ffffff;
+  background: #105f74;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem 1rem 1.25rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
+
+.register form .login_button {
+  all: unset;
+  color: #105f74;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.25rem;
+}
