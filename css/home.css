@@ -1,0 +1,71 @@
+.feed {
+  padding: 2rem;
+  border: 1px solid #4c5c68;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  width: 46%;
+  margin: 0 auto;
+}
+
+.feed .post {
+  display: flex;
+  flex-direction: column;
+}
+
+.feed .post .author {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+
+  color: #f2f2f2;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.feed .post .author .profile_pic {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.feed .post .author .profile_pic img {
+  width: 100%;
+}
+
+.feed .post .content {
+  padding: 0 2.875rem;
+  margin-top: 0.875rem;
+}
+
+.feed .post .content .image img {
+  width: 100%;
+}
+
+.feed .post .content .post_interactions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0.875rem 0 1.3rem;
+}
+
+.feed .post .content .post_interactions .button {
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+.feed .post .content .post_interactions .button:hover {
+  transform: scale(1.1);
+}
+
+.feed .post .content .post_interactions span {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.feed .post .content .text {
+  color: #f2f2f2;
+}
