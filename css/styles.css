@@ -72,12 +72,13 @@ body {
 .register form .terms {
   margin-bottom: 1.25rem;
 }
-.register form .terms p {
+.register form .terms label {
+  display: inline-block;
   line-height: 1.5rem;
   text-align: center;
 }
 
-.register form .terms p a {
+.register form .terms label a {
   color: #105f74;
 }
 
