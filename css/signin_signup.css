@@ -96,3 +96,19 @@
   font-weight: 700;
   line-height: 1.25rem;
 }
+
+@media (max-width: 1280px) {
+  .register {
+    padding: 0 2%;
+    justify-content: center;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .register form {
+    padding: 3.12rem 1.25rem 4.13rem;
+  }
+}
