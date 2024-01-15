@@ -56,6 +56,7 @@
 .feed .post .author .profile_pic {
   border-radius: 50%;
   overflow: hidden;
+  aspect-ratio: 1/1;
 }
 
 .feed .post .author .profile_pic img {
@@ -139,4 +140,49 @@
   all: unset;
   color: #22a2f2;
   cursor: pointer;
+}
+
+@media (max-width: 780px) {
+  .side_menu {
+    display: none;
+  }
+
+  .home {
+    padding: 0;
+  }
+
+  .feed {
+    width: 100%;
+    border: none;
+    padding: 0 1rem;
+  }
+
+  .feed .post {
+    padding: 0;
+  }
+
+  .feed .post .author {
+    gap: 0.875rem;
+    font-size: 1rem;
+  }
+
+  .feed .post .author .profile_pic {
+    height: 2.5rem;
+  }
+
+  .feed .post .content {
+    padding: 0;
+  }
+
+  .feed .post .content .post_interactions img {
+    height: 1.25rem;
+  }
+
+  .feed .post .content .post_interactions span {
+    gap: 0.875rem;
+  }
+
+  .suggestions {
+    display: none;
+  }
 }
