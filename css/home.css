@@ -4,6 +4,8 @@
   padding: 9.125rem 2.8rem;
 }
 
+/* ========= HEADER ========= */
+
 .header {
   width: 100%;
   height: 7.125rem;
@@ -17,9 +19,9 @@
   align-items: center;
   justify-content: space-between;
   grid-template-columns: repeat(3, auto);
+  background: #222222;
 
   color: #ffffff;
-  background: #242424;
 }
 
 .header .menu_bar {
@@ -29,7 +31,7 @@
 .header .logo {
   height: 60px;
 }
-.header .serach {
+.header .search {
   justify-self: center;
 }
 
@@ -54,6 +56,8 @@
   border-radius: 50%;
 }
 
+/* ========= SIDE MENU ========= */
+
 .side_menu .list {
   display: flex;
   flex-direction: column;
@@ -67,6 +71,12 @@
   gap: 1rem;
   font-size: 1.25rem;
   color: #f2f2f2;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.side_menu .list .list_item:hover {
+  color: #22a2f2;
 }
 
 .side_menu .list .list_item .icon {
@@ -76,24 +86,69 @@
   align-items: center;
 }
 
+/* ========= FEED ========= */
+
+.create_post {
+  border: 1px solid #4c5c68;
+  padding: 1.25rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.create_post textarea {
+  all: unset;
+  width: 100%;
+  height: 4rem;
+  background: transparent;
+  color: #f2f2f2;
+}
+
+.create_post textarea::placeholder {
+  color: #f2f2f2;
+}
+
+.create_post .create_post_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create_post .create_post_footer .container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.create_post .create_post_footer .button {
+  all: unset;
+  padding: 0.875rem 2rem;
+  font-size: 0.75rem;
+  color: #000;
+  background: #1985a1;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 0.625rem;
+}
+
 .feed {
+  width: 46%;
+  margin: 0 auto;
+}
+
+.feed .posts {
   padding: 2rem;
   border: 1px solid #4c5c68;
 
   display: flex;
   flex-direction: column;
   gap: 3rem;
-
-  width: 46%;
-  margin: 0 auto;
 }
 
-.feed .post {
+.feed .posts .post {
   display: flex;
   flex-direction: column;
 }
 
-.feed .post .author {
+.feed .posts .post .author {
   display: flex;
   align-items: center;
   gap: 1.4rem;
@@ -103,26 +158,26 @@
   font-weight: 400;
 }
 
-.feed .post .author .profile_pic {
+.feed .posts .post .author .profile_pic {
   border-radius: 50%;
   overflow: hidden;
   aspect-ratio: 1/1;
 }
 
-.feed .post .author .profile_pic img {
+.feed .posts .post .author .profile_pic img {
   width: 100%;
 }
 
-.feed .post .content {
+.feed .posts .post .content {
   padding: 0 2.875rem;
   margin-top: 0.875rem;
 }
 
-.feed .post .content .image img {
+.feed .posts .post .content .image img {
   width: 100%;
 }
 
-.feed .post .content .post_interactions {
+.feed .posts .post .content .post_interactions {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -130,24 +185,17 @@
   margin: 0.875rem 0 1.3rem;
 }
 
-.feed .post .content .post_interactions .button {
-  cursor: pointer;
-
-  transition: all 0.3s;
-}
-.feed .post .content .post_interactions .button:hover {
-  transform: scale(1.1);
-}
-
-.feed .post .content .post_interactions span {
+.feed .posts .post .content .post_interactions span {
   display: flex;
   align-items: center;
   gap: 1.6rem;
 }
 
-.feed .post .content .text {
+.feed .posts .post .content .text {
   color: #f2f2f2;
 }
+
+/* ========= SUGGESTIONS ========= */
 
 .suggestions {
   display: flex;
@@ -190,8 +238,12 @@
   all: unset;
   color: #22a2f2;
   cursor: pointer;
+  transition: all 0.3s;
 }
 
+.suggestions .suggestion .add_friend:hover {
+  transform: scale(1.1);
+}
 @media (max-width: 780px) {
   .header {
     height: 3rem;
@@ -199,6 +251,7 @@
     border-bottom: 1px solid rgba(68, 68, 68, 0.27);
 
     grid-template-columns: repeat(3, 1fr);
+    background: #242424;
   }
 
   .header .menu_bar {
@@ -245,28 +298,33 @@
     padding: 0 1rem;
   }
 
-  .feed .post {
+  .feed .posts {
+    padding: 0;
+    border: none;
+  }
+
+  .feed .posts .post {
     padding: 0;
   }
 
-  .feed .post .author {
+  .feed .posts .post .author {
     gap: 0.875rem;
     font-size: 1rem;
   }
 
-  .feed .post .author .profile_pic {
+  .feed .posts .post .author .profile_pic {
     height: 2.5rem;
   }
 
-  .feed .post .content {
+  .feed .posts .post .content {
     padding: 0;
   }
 
-  .feed .post .content .post_interactions img {
+  .feed .posts .post .content .post_interactions img {
     height: 1.25rem;
   }
 
-  .feed .post .content .post_interactions span {
+  .feed .posts .post .content .post_interactions span {
     gap: 0.875rem;
   }
 

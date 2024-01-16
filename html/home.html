@@ -28,7 +28,7 @@
         <div class="search">Lorem Ipsum</div>
         <div class="profile">
           <p class="name">usuario</p>
-          <div class="profile_pic"></div>
+          <div class="profile_pic pointer"></div>
         </div>
       </header>
       <nav class="side_menu">
@@ -62,7 +62,36 @@
           </li>
         </ul>
       </nav>
-      <div class="feed"></div>
+      <div class="feed">
+        <div class="create_post">
+          <textarea
+            name="new_post"
+            id="new_post"
+            placeholder="No que está pensando...?"
+          ></textarea>
+          <div class="create_post_footer">
+            <div class="container">
+              <img
+                class="pointer scale_on_hover"
+                src="/assets/imagem.svg"
+                alt="adicionar imagem"
+              />
+              <img
+                class="pointer scale_on_hover"
+                src="/assets/emoji.svg"
+                alt="adicionar emoji"
+              />
+              <img
+                class="pointer scale_on_hover"
+                src="/assets/link.svg"
+                alt="marcar amigo"
+              />
+            </div>
+            <button class="button">postar</button>
+          </div>
+        </div>
+        <div class="posts"></div>
+      </div>
       <div class="suggestions">
         <h3 class="title">Pessoas que talvez você conheça</h3>
         <div class="suggestion">

@@ -31,10 +31,10 @@ const createFeed = (author, img, text) => {
         </div>
         <div class="post_interactions">
             <span>
-                <img class="button" src="/assets/like.svg" alt="like post"/>
-                <img class="button" src="/assets/comment.svg" alt="comment post" />
+                <img class="pointer scale_on_hover" src="/assets/like.svg" alt="like post"/>
+                <img class="pointer scale_on_hover" src="/assets/comment.svg" alt="comment post" />
             </span>
-            <img class="button" src="/assets/favorite.svg" alt="favorite post" />
+            <img class="pointer scale_on_hover" src="/assets/favorite.svg" alt="favorite post" />
         </div>
         <p class="text">${text}</p>
     </div>
@@ -46,7 +46,7 @@ const createFeed = (author, img, text) => {
 };
 
 const loadFeed = () => {
-  const feed = document.querySelector(".feed");
+  const feed = document.querySelector(".posts");
 
   posts.forEach((post) => {
     const { author, img, text } = post;
