@@ -36,6 +36,9 @@
   border: 1px solid #222222;
 
   position: relative;
+
+  display: flex;
+  align-items: center;
 }
 
 .register form .input_container input {
