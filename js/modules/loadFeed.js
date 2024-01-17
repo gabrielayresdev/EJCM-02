@@ -45,7 +45,7 @@ const createFeed = (author, img, text) => {
   return container;
 };
 
-const loadFeed = () => {
+export default function loadFeed() {
   const feed = document.querySelector(".posts");
 
   posts.forEach((post) => {
@@ -53,6 +53,4 @@ const loadFeed = () => {
     const newPost = createFeed(author, img, text);
     feed.appendChild(newPost);
   });
-};
-
-export default loadFeed;
+}

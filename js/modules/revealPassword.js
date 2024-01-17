@@ -1,4 +1,4 @@
-function revealPassword() {
+export default function revealPassword() {
   const eyes = document.querySelectorAll(".visibility");
 
   eyes.forEach((eye) => {
@@ -13,5 +13,3 @@ function revealPassword() {
     });
   });
 }
-
-export default revealPassword;
