@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro | TTwiter</title>
+    <title>Login | TTwiter</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,18 +20,10 @@
     <div class="page">
       <form>
         <!-- ! Verificar com monitor se isso é uma má prática -->
-        <h2 class="title">Cadastro</h2>
-        <div class="input_container">
-          <label for="nome">Nome</label>
-          <input type="text" id="nome" placeholder="nome de usuário" />
-        </div>
+        <h2 class="title">Bem vindo a plataforma TTwitter</h2>
         <div class="input_container">
           <label for="email">Email</label>
           <input type="email" id="email" placeholder="example@email.com" />
-        </div>
-        <div class="input_container">
-          <label for="birth">Data de nascimento</label>
-          <input type="text" id="birth" placeholder="XX/XX/XXXX" />
         </div>
         <div class="input_container">
           <label for="password">Senha</label>
@@ -40,22 +32,16 @@
             <img src="/assets/visibility.svg" alt="mostrar senha" />
           </div>
         </div>
-        <div class="input_container">
-          <label for="password2">Confirmar senha</label>
-          <input type="password" id="password2" placeholder="🞄🞄🞄🞄🞄🞄🞄🞄🞄🞄🞄🞄🞄🞄" />
-          <div class="visibility pointer" data-target="password2">
-            <img src="/assets/visibility.svg" alt="mostrar senha" />
-          </div>
-        </div>
-        <div class="terms">
-          <label for="terms">
-            <input type="checkbox" name="terms" id="terms" /> Li e estou de
-            acordo com os <a href="#">Termos</a> e
-            <a href="#">Condições de uso</a>.
-          </label>
-        </div>
-        <a href="signin.html" class="register_button">Cadastrar</a>
-        <a href="signin.html" class="login_button">Fazer Login</a>
+
+        <a href="#" class="forgot_password">esqueci minha senha</a>
+
+        <a href="home.html" class="register_button">Entrar</a>
+        <a href="index.html" class="login_button">Registrar</a>
+
+        <p for="terms" class="terms signin">
+          Li e estou de acordo com os <a href="#">Termos</a> e
+          <a href="#">Condições de uso</a>.
+        </p>
       </form>
       <div class="logo">
         <img src="../assets/Logo TT.svg" alt="Logo da marca" />

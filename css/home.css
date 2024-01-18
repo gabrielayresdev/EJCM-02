@@ -163,6 +163,12 @@
   font-weight: 600;
   text-transform: capitalize;
   border-radius: 0.625rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.feed .create_post .create_post_footer .button:hover {
+  background: #3197b1;
 }
 
 .feed {

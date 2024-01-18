@@ -1,4 +1,4 @@
-.register {
+.page {
   width: 100vw;
   min-height: 100vh;
 
@@ -10,7 +10,7 @@
   padding: 0 10.81rem;
 }
 
-.register form {
+.page form {
   background: #f2f2f2;
   border-radius: 1.25rem;
 
@@ -23,14 +23,14 @@
   gap: 1.25rem;
 }
 
-.register form .title {
+.page form .title {
   font-size: 1.5rem;
   color: #222222;
   font-weight: 700;
   margin: 0 auto 30px;
 }
 
-.register form .input_container {
+.page form .input_container {
   padding: 0.81rem 0.93rem;
   border-radius: 0.5rem;
   border: 1px solid #222222;
@@ -41,7 +41,7 @@
   align-items: center;
 }
 
-.register form .input_container input {
+.page form .input_container input {
   border: none;
   background: transparent;
   font-size: 16px;
@@ -51,11 +51,11 @@
   width: 100%;
 }
 
-.register form .input_container input::placeholder {
+.page form .input_container input::placeholder {
   color: #46494c80;
 }
 
-.register form .input_container label {
+.page form .input_container label {
   position: absolute;
   bottom: 100%;
   left: 0.9rem;
@@ -68,20 +68,28 @@
   font-weight: 400;
 }
 
-.register form .terms {
+.page form .forgot_password {
+  color: #105f74;
+  text-align: right;
   margin-bottom: 1.25rem;
 }
-.register form .terms label {
+
+.page form .terms {
+  margin-bottom: 1.25rem;
   display: inline-block;
   line-height: 1.5rem;
   text-align: center;
 }
 
-.register form .terms label a {
+.page form .terms.signin {
+  margin: 2rem 0 0;
+}
+
+.page form .terms a {
   color: #105f74;
 }
 
-.register form .register_button {
+.page form .register_button {
   all: unset;
   color: #ffffff;
   background: #105f74;
@@ -92,7 +100,7 @@
   line-height: 1.25rem;
 }
 
-.register form .login_button {
+.page form .login_button {
   all: unset;
   color: #105f74;
   text-align: center;
@@ -100,8 +108,18 @@
   line-height: 1.25rem;
 }
 
+.page form .login_button,
+.page form .register_button {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.page form .register_button:hover {
+  background: #3197b1;
+}
+
 @media (max-width: 1280px) {
-  .register {
+  .page {
     padding: 3rem 2%;
     justify-content: center;
   }
@@ -111,7 +129,7 @@
 }
 
 @media (max-width: 780px) {
-  .register form {
+  .page form {
     padding: 3.12rem 1.25rem 4.13rem;
   }
 }
