@@ -6,7 +6,7 @@ Projeto desenvolvido como exercício para o treinamento técnico da EJCM.
 
 Caso queira utilizar o site, entre em https://messy-gelatinous-bard.glitch.me/
 
-![Site responsivo. Design adaptável para todas as plataformas](https://https://github.com/gabrielayresdev/EJCM-02/eb70ac40c8b05df871a1ec6ebe70cda66d985458/assets/readme/designo-template.png)
+![Site responsivo. Design adaptável para todas as plataformas](https://https://github.com/gabrielayresdev/EJCM-02/eb70ac40c8b05df871a1ec6ebe70cda66d985458/tree/main/assets/readme/designo-template.png)
 
 ## Tecnologias
 
@@ -28,18 +28,18 @@ As principais funcionalidades são:
 
 ### Desktop
 
-![Layout da homepage desktop](https://https://github.com/gabrielayresdev/EJCM-02/assets/readme/desktop.png)
-![Layout da homepage desktop](https://https://github.com/gabrielayresdev/EJCM-02/assets/readme/desktop2.png)
+![Layout da homepage desktop](https://https://github.com/gabrielayresdev/EJCM-02/tree/main/assets/readme/desktop.png)
+![Layout da homepage desktop](https://https://github.com/gabrielayresdev/EJCM-02/tree/main/assets/readme/desktop2.png)
 
 ### Tablet
 
-![Layout da homepage tablet](https://https://github.com/gabrielayresdev/EJCM-02/assets/readme/tablet.png)
-![Layout da homepage tablet](https://https://github.com/gabrielayresdev/EJCM-02/assets/readme/tablet2.png)
+![Layout da homepage tablet](https://https://github.com/gabrielayresdev/EJCM-02/tree/main/assets/readme/tablet.png)
+![Layout da homepage tablet](https://https://github.com/gabrielayresdev/EJCM-02/tree/main/assets/readme/tablet2.png)
 
 ### Mobile
 
-![Layout da homepage mobile](https://https://github.com/gabrielayresdev/EJCM-02/assets/readme/mobile.png)
-![Layout da homepage mobile](https://https://github.com/gabrielayresdev/EJCM-02/assets/readme/mobile2.png)
+![Layout da homepage mobile](https://https://github.com/gabrielayresdev/EJCM-02/tree/main/assets/readme/mobile.png)
+![Layout da homepage mobile](https://https://github.com/gabrielayresdev/EJCM-02/tree/main/assets/readme/mobile2.png)
 
 ## Links
 
