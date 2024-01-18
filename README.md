@@ -6,8 +6,6 @@ Projeto desenvolvido como exercício para o treinamento técnico da EJCM.
 
 Caso queira utilizar o site, entre em https://messy-gelatinous-bard.glitch.me/
 
-![Site responsivo. Design adaptável para todas as plataformas](https://github.com/gabrielayresdev/EJCM-02/eb70ac40c8b05df871a1ec6ebe70cda66d985458/blob/main/assets/readme/designo-template.png)
-
 ## Tecnologias
 
 Essas foram as tecnologias usadas no projeto:
