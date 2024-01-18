@@ -1,6 +1,6 @@
 .register {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@
 
 @media (max-width: 1280px) {
   .register {
-    padding: 0 2%;
+    padding: 3rem 2%;
     justify-content: center;
   }
   .logo {
